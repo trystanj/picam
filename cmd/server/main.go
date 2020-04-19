@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"net/http"
 
@@ -27,7 +28,8 @@ func img(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, output)
+	result := bytes.NewBuffer(output).String()
+	fmt.Fprintf(w, result)
 }
 
 func video(w http.ResponseWriter, r *http.Request) {
