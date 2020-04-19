@@ -1,5 +1,3 @@
-module github.com/trystanj/picam
+module github.com/trystan/picam
 
 go 1.14
-
-require github.com/sirupsen/logrus v1.5.0
