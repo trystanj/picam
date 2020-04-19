@@ -1,4 +1,4 @@
-module github.com/trystanj/piserver
+module github.com/trystanj/picam
 
 go 1.14
 
