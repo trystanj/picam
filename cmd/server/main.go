@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/trystan/picam/pkg/image"
+	"github.com/trystanj/picam/pkg/image"
 
 	log "github.com/sirupsen/logrus"
 )
